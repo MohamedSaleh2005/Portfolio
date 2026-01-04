@@ -5,7 +5,7 @@ export default function Home() {
   return (
 
 
-    <div className="bg-zinc-800 h-screen w-full text-white">
+    <div className=" h-screen w-full">
 
       <Navbar/>
 

@@ -5,12 +5,7 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -36,4 +31,19 @@
 .open{
   clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
   transition: all 1s ease;
+}
+
+/* Light Mode */
+.dark{
+  background-color: rgb(43, 43, 43);
+  color: rgb(255, 254, 254);
+}
+
+/* Special Themes */
+.dark .s1{
+  color:rgb(254, 255, 254);
+}
+.dark .s2{
+  background-color: rgb(24, 22, 22);
+  color: black;
 }
