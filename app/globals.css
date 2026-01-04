@@ -23,6 +23,17 @@
   font-family: var(--font-Montserrat);
 }
 
+/* Nav hover */
 .myhover {
   @apply hover:text-violet-400 hover:scale-90 transition duration-300 cursor-pointer
+}
+
+/* mopile nav */
+.close{
+  clip-path: polygon(0 0 , 100% 0 , 100% 0 , 0 0);
+  transition: all 1s ease;
+}
+.open{
+  clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
+  transition: all 1s ease;
 }

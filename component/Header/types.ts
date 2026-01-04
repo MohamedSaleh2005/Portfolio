@@ -1,4 +1,5 @@
 type NavItems = {
+    id:number
     title: string
     href: string
 }
@@ -6,10 +7,10 @@ type NavItems = {
 
 export const navItems: NavItems[] =
     [
-        { title: "Home", href: "/" },
-        { title: "About", href: "/" },
-        { title: "Services", href: "/" },
-        { title: "Contact", href: "/" },
+        { title: "Home", href: "/" ,id:1},
+        { title: "About", href: "/" , id:2},
+        { title: "Services", href: "/" , id:3},
+        { title: "Contact", href: "/" , id:4},
 
     ]
 

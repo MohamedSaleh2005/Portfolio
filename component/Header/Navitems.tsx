@@ -1,12 +1,16 @@
 import React from 'react'
 import { navItems } from './types'
 
-export default function Navitems() {
+export default function NavItems() {
   return (
-    <div className='hidden md:flex gap-10'>
+    <ul className='hidden md:flex gap-10'>
         {navItems.map ((item) => (
-            <a className='myhover' href={item.href}>{item.title}</a>
+
+          <li className='myhover' key={item.id}>
+            <a href={item.href}>{item.title}</a>
+          </li>
+
         ))}
-    </div>
+    </ul>
   )
 }
