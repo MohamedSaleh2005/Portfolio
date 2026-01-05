@@ -20,7 +20,7 @@
 
 /* Nav hover */
 .myhover {
-  @apply hover:text-violet-400 hover:scale-90 transition duration-300 cursor-pointer
+  @apply hover:text-sky-400 hover:scale-95 transition duration-300 cursor-pointer
 }
 
 /* mopile nav */
@@ -35,7 +35,7 @@
 
 /* Light Mode */
 .dark{
-  background-color: rgb(43, 43, 43);
+  background-color: rgba(10, 9, 9, 0.925);
   color: rgb(255, 254, 254);
 }
 
