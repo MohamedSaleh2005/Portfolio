@@ -18,19 +18,23 @@
   font-family: var(--font-Montserrat);
 }
 
+/* Header */
 /* Nav hover */
 .myhover {
   @apply hover:text-sky-400 hover:scale-95 transition duration-300 cursor-pointer
 }
-
 /* mopile nav */
 .close{
   clip-path: polygon(0 0 , 100% 0 , 100% 0 , 0 0);
   transition: all 1s ease;
+  position: fixed;
+  z-index: 1000;
 }
 .open{
   clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
   transition: all 1s ease;
+  position: fixed;
+  z-index: 1000;
 }
 
 /* Light Mode */
@@ -43,7 +47,44 @@
 .dark .s1{
   color:rgb(254, 255, 254);
 }
-.dark .s2{
+.dark .list{
   background-color: rgb(24, 22, 22);
   color: black;
+}
+/* sections */
+/* Social Media Icons Style  */
+
+.BtnHover{
+  color: rgb(30, 188, 255);
+  font-size: 22px;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 3px;
+  transition: all 0.3s ease;
+  border: 1.5px solid transparent;
+  align-items: center;
+}
+.BtnHover:hover{
+  transform: scale(0.95);
+  border: rgb(30, 188, 255) solid 1.5px;
+}
+.Cv_Hover{
+  @apply block py-1 px-5 mt-4  w-36 rounded-sm border cursor-pointer font-serif font-semibold opacity-80 hover:opacity-100 border-sky-400 transition-all duration-300
+}
+.HiDiv {
+  font-family: var(--font-Montserrat);
+  padding: 4px 10px 4px 5%;
+  align-items: center;
+  box-shadow: 0 1 4 1 ;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  transition: all 0.3s ease;
+  border: rgb(68, 191, 244) solid 2px;
+  color: rgb(68, 191, 244);
+  opacity: 0;
+}
+.Photo:hover .HiDiv{
+  opacity: 1;
+  transform: translatex(-50px);
 }

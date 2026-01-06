@@ -1,4 +1,5 @@
-import Navbar from "@/component/Header/Navbar";
+import Navbar from "@/Components/Header/Navbar";
+import AllSection from "@/Components/All_Sections/AllSections";
 
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
     <div className=" h-screen w-full">
 
       <Navbar/>
-
+      <AllSection/>
     </div>
 
 
