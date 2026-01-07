@@ -1,10 +1,10 @@
 
 import Image from 'next/image'
-export default function AboutMe() {
+export default function About() {
   return (
         <section className='flex' id='About'>
 
-          <div className='m-auto py-20 flex flex-col md:flex-row px-5 items-center gap-10'>
+          <div className='m-auto py-40 px-5 flex flex-col md:flex-row items-center gap-10'>
 
              <div className='w-50 h-50 rounded-full flex  border-3 border-sky-400'>
             
