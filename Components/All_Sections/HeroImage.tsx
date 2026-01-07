@@ -5,7 +5,7 @@ export default function HeroImage() {
   return (
             <div className='Photo cursor-pointer w-70 m-auto rounded-full relative  h-70 items-center flex border-5 border-sky-400 shadow-sky-400 shadow-[0_3px_25px_-] hover:shadow-[0_4px_35px_-]'>
 
-              <div className='HiDiv absolute right-53 md:right-65 top-4 '>Hi</div>
+              <div className='HiDiv absolute right-56 md:right-65 top-0 '>Hi</div>
               
                 <Image
                     src="/saleh.jpg"

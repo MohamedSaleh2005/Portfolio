@@ -49,8 +49,8 @@
 }
 .dark .list{
   background-color: rgb(24, 22, 22);
-  color: black;
 }
+
 /* sections */
 /* Social Media Icons Style  */
 
@@ -69,7 +69,7 @@
   border: rgb(30, 188, 255) solid 1.5px;
 }
 .Cv_Hover{
-  @apply block py-1 px-5 mt-4  w-36 rounded-sm border cursor-pointer font-serif font-semibold opacity-80 hover:opacity-100 border-sky-400 transition-all duration-300
+  @apply block py-1 px-5 mt-4  w-36 rounded-sm border-2 cursor-pointer font-serif font-semibold opacity-80 hover:opacity-100 border-sky-400 transition-all duration-300
 }
 .HiDiv {
   font-family: var(--font-Montserrat);
