@@ -2,6 +2,7 @@ import About from './About'
 import HeroSection from './HeroSection'
 import Projects from './Projects'
 import Services from './Services'
+import Skills from './Skills'
 
 export default function Allsection() {
   return (
@@ -10,6 +11,7 @@ export default function Allsection() {
       <About/>
       <Services/>
       <Projects/>
+      <Skills/>
     </div>
   )
 }

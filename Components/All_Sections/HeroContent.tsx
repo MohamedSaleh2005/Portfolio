@@ -14,7 +14,7 @@ export default function HeroContent() {
                     </div>
 
                         {/* Download Cv btn */}
-                    <a href='/saleh.jpg' download={"Mohamed Saleh CV"} className='Cv_Hover'>Download CV</a>
+                    <a href='/Mohamed_Saleh_CV.pdf' download={"Mohamed Saleh CV"} className='Cv_Hover'>Download CV</a>
     </div>
   )
 }

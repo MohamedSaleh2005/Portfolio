@@ -37,7 +37,29 @@ type Projects = {
 
 }
 export const projects: Projects[] = [
-    {id:1 , title:"Portfolio Website" , photo:"/saleh.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
-    {id:2 , title:"E-Commerce Website" , photo:"/saleh.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
-    {id:3 , title:"DashBoard Website" , photo:"/saleh.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
+    // {id:1 , title:"Portfolio Website" , photo:"/saleh.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
+    // {id:2 , title:"E-Commerce Website" , photo:"/saleh.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
+    // {id:3 , title:"DashBoard Website" , photo:"/saleh.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
+    {id:1 , title:"Portfoilo Website" , photo:"/po.png" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
+    {id:2 , title:"Spotift Website" , photo:"/spotify.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
+    {id:3 , title:"Restaurant Website" , photo:"/restaurant.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
 ]    
+
+    // My Skills
+
+type Skills = {
+    id:number,
+    title:string,
+    photo:string 
+}
+
+export const skills: Skills[] = [
+    {id:1 , title:"HTML" , photo:"/html.png"},
+    {id:2 , title:"CSS" , photo:"/css.png"},
+    {id:3 , title:"GIT" , photo:"/git.png"},
+    {id:4 , title:"T-SCRIPT" , photo:"/tscript.png"},
+    {id:5 , title:"SCRIPT JS" , photo:"/script.png"},
+    {id:6 , title:"REACT JS" , photo:"/re.png"},
+    {id:7 , title:"NEXT JS" , photo:"/next.png"},
+    {id:8 , title:"TAILWIND" , photo:"/tailwind.png"},
+]

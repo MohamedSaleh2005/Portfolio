@@ -4,16 +4,16 @@ export default function About() {
   return (
         <section className='flex' id='About'>
 
-          <div className='m-auto py-40 px-5 flex flex-col md:flex-row items-center gap-10'>
+          <div className='m-auto py-30 md:py-40 px-5 flex flex-col md:flex-row items-center gap-10'>
 
-             <div className='w-50 h-50 rounded-full flex  border-3 border-sky-400'>
+             <div className='w-50 h-50 rounded-full flex  border-3 border-sky-400 p-2'>
             
                     <Image
-                            src="/saleh.jpg"
+                            src="/saleh2.jpg"
                             width={500}
                             height={500}
                             alt="My Photo"
-                            className="rounded-full w-45 m-auto  "
+                            className="rounded-full  object-cover h-45 m-auto  "
                             />
             </div>
 

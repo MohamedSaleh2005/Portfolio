@@ -21,7 +21,7 @@ export default function Projects() {
                             <h1>{project.title}</h1>
                             <div className='flex gap-4'>
                                     {project.skills.map((skill, index) => (
-                                    <span className="border rounded-lg border-sky-400 p-2 shadow-[0_1px_10px_-] shadow-sky-200 " key={index}>{skill}</span>
+                                    <span className="border rounded-lg border-sky-400 p-2 shadow-[0_2px_0px_-] shadow-sky-900 " key={index}>{skill}</span>
                                 ))}
                             </div>
                             <a href={project.link} className='flex items-center mt-3 py-1.5 w-30 pl-5 hover:scale-105 transition-all duration-300 border-2 border-sky-400 rounded-md'>Githup<span className="pl-2"><FaShare /></span> </a>

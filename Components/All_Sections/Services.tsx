@@ -2,7 +2,7 @@ import { cards } from './types'
 
 export default function Services() {
     return (
-        <section className='flex flex-col py-40' id='Services'>
+        <section className='flex flex-col py-25 md:py-40' id='Services'>
 
             <h1 className='myfont text-2xl m-auto'>Our <span className='text-sky-400'>Services</span></h1>
         
