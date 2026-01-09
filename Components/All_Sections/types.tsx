@@ -5,7 +5,7 @@ import { FaInstagram , FaGithub , FaFacebook , FaTwitter, FaChartBar , FaCode, F
 interface Icons {
     id:number
     link?:string
-    icon:ReactNode
+    icon?:ReactNode
 }
 
     // Hero Icons
@@ -26,3 +26,18 @@ export const cards: Cards[] = [
     {id:2 , title: "Digital Marketing" , icon: <FaChartBar /> , text:"Bachelor student focused on effective digital growth strategies"},
     {id:3 , title: "UI / UX Design" , icon: <FaPencilAlt /> , text:"Designing clean user friendly interfaces for better experiences"},
 ]
+    // Projects Cards
+
+type Projects = {
+    id:number ,
+    title:string,
+    photo:string,
+    link:string,
+    skills:string[]
+
+}
+export const projects: Projects[] = [
+    {id:1 , title:"Portfolio Website" , photo:"/saleh.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
+    {id:2 , title:"E-Commerce Website" , photo:"/saleh.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
+    {id:3 , title:"DashBoard Website" , photo:"/saleh.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
+]    

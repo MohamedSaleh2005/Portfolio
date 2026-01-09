@@ -69,7 +69,7 @@
   border: rgb(30, 188, 255) solid 1.5px;
 }
 .Cv_Hover{
-  @apply block py-1 px-5 mt-4  w-36 rounded-sm border-2 cursor-pointer font-serif font-semibold opacity-80 hover:opacity-100 border-sky-400 transition-all duration-300
+  @apply flex items-center py-1 px-5 mt-4  w-36 rounded-sm border-2 cursor-pointer font-serif font-semibold hover:scale-103 border-sky-400 transition-all duration-300
 }
 .HiDiv {
   font-family: var(--font-Montserrat);
@@ -87,4 +87,14 @@
 .Photo:hover .HiDiv{
   opacity: 1;
   transform: translatex(-50px);
+}
+/* My Projects */
+.Pimage2{
+  transition: all 0.7s ease;
+  opacity: 0,80;
+}
+
+.Pimage1:hover .Pimage2{
+  transform: rotatey(90deg);
+  opacity: 0;
 }
