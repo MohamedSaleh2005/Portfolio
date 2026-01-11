@@ -19,10 +19,10 @@ export default function Phonenav() {
 
 
             <div className={`${open ? "open" : "close"}  absolute top-21 right-3 w-25`}>
-                <ul className='list bg-gray-50 flex flex-col items-center rounded-md py-2 z-50'>
+                <ul className='Special bg-gray-50 flex flex-col items-center rounded-md py-2 z-50'>
                     {navItems.map((item) => (
 
-                        <li key={item.id} className='myhover py-1 text-sky-400'>
+                        <li key={item.id} className='myhover py-1'>
                             <a href={item.href} onClick={() => setopen(false)} >{item.title}</a>
                         </li>
 

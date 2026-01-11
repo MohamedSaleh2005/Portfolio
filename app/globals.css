@@ -39,16 +39,19 @@
 
 /* Light Mode */
 .dark{
-  background-color: rgba(10, 9, 9, 0.925);
+  background-color: rgba(15, 15, 15, 0.925);
   color: rgb(255, 254, 254);
 }
 
 /* Special Themes */
-.dark .s1{
+.dark .h1{
   color:rgb(254, 255, 254);
 }
-.dark .list{
-  background-color: rgb(24, 22, 22);
+.Special{
+  background-color: rgb(243, 243, 243);
+}
+.dark .Special{
+  background-color: rgb(45, 45, 45);
 }
 
 /* sections */
@@ -68,8 +71,8 @@
   transform: scale(0.95);
   border: rgb(30, 188, 255) solid 1.5px;
 }
-.Cv_Hover{
-  @apply flex items-center py-1 px-5 mt-4  w-36 rounded-sm border-2 cursor-pointer font-serif font-semibold hover:scale-103 border-sky-400 transition-all duration-300
+.My_Hover{
+  @apply flex px-5 py-1 mt-4 items-center rounded-3xl border-2 cursor-pointer font-serif font-semibold hover:scale-95 border-sky-400 transition-all duration-300 hover:bg-sky-500
 }
 .HiDiv {
   font-family: var(--font-Montserrat);
@@ -97,4 +100,17 @@
 .Pimage1:hover .Pimage2{
   transform: rotatey(90deg);
   opacity: 0;
+}
+/* Contact */
+.Contact {
+  padding: 8px 8px 12px 12px;
+  border-radius: 4px;
+  outline: none;
+  border: rgb(30, 188, 255) solid 1px;
+  color: rgb(30, 188, 255);
+  font-size: 16px;
+}
+
+.MyShadow{
+  @apply shadow-sky-700 shadow-[0px_1px_2px_0px] 
 }

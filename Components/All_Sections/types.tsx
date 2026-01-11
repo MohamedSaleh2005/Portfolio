@@ -40,7 +40,7 @@ export const projects: Projects[] = [
     // {id:1 , title:"Portfolio Website" , photo:"/saleh.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
     // {id:2 , title:"E-Commerce Website" , photo:"/saleh.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
     // {id:3 , title:"DashBoard Website" , photo:"/saleh.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
-    {id:1 , title:"Portfoilo Website" , photo:"/po.png" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
+    {id:1 , title:"Portfoilo Website" , photo:"/p3.png" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
     {id:2 , title:"Spotift Website" , photo:"/spotify.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
     {id:3 , title:"Restaurant Website" , photo:"/restaurant.jpg" , link:"https://github.com/MohamedSaleh2005" , skills:["Next-js" , "T-Script" , "Tailwind"]},
 ]    
