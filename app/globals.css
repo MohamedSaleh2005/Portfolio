@@ -39,13 +39,19 @@
 
 /* Light Mode */
 .dark{
-  background-color: rgba(15, 15, 15, 0.925);
+  background-color: rgba(10, 10, 10, 0.925);
   color: rgb(255, 254, 254);
 }
 
 /* Special Themes */
 .dark .h1{
   color:rgb(254, 255, 254);
+}
+.SpecialNav{
+  background-color: white;
+}
+.dark .SpecialNav{
+  background-color: rgb(24, 24, 24);
 }
 .Special{
   background-color: rgb(243, 243, 243);
