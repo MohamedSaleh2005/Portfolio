@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react";
 import Swal from "sweetalert2";
+import { Reveal } from "../All_Sections/ScrollAnimation";
 
 export default function Contact() {
     const [result, setResult] = useState<string>("Send Message");
@@ -46,14 +47,18 @@ export default function Contact() {
     return (
         <form onSubmit={onSubmit} className="flex flex-col gap-2 py-20  md:py-0" id="Contact">
             <h1 className='myfont text-2xl m-auto'>Contact <span className='text-sky-400'>Me!</span></h1>
-            <div className="flex m-auto mt-7">
+            <div className="flex mt-7">
+            <Reveal direction="left" className="mx-auto">
                 <input type="email" placeholder="Email Adress" name="email" className="Special Contact MyShadow w-82" required />
-
+            </Reveal>
             </div>
-
             <div className="m-auto flex flex-col gap-2 ">
+            <Reveal direction="right" className="mx-auto">
                 <input type="text" placeholder="Full Name" name="name" className="Special Contact MyShadow w-82" required />
-                <textarea placeholder="Write Your Massege" name="message" className="Special Contact MyShadow h-40 resize-none" required></textarea>
+            </Reveal>
+            <Reveal direction="bottom" className="">
+                <textarea placeholder="Write Your Massege" name="message" className="Special Contact MyShadow h-40 w-82 resize-none" required></textarea>
+            </Reveal>
             </div>
             <button type="submit" className="My_Hover  m-auto ">{result}</button>
         </form>
